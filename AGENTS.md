@@ -3,20 +3,22 @@
 ## Business Requirements
 
 - An MVP of a Kanban style Project Management application as a web app  
-- The web app should support multiple boards  
-- Each board can have configurable columns  
-- Each card has a title, details, tags  
+- The web app should only have 1 board
+- The board has fixed 5 columns that can be renamed  
+- Each card has a title and details only
 - Drag and drop interface to move cards between columns
-- The tool should support archiving cards, filter/search
-- The priority is a slick, professional, gorgeous UI/UX with a rich featureset for an MVP
-- The app should first open with dummy data populated showing multiple active boards
+- Add a new card to a column; delete an existing card
+- No more functionality: no archive, no search/filter. Keep it simple.
+- The priority is a slick, professional, gorgeous UI/UX with very simple features
+- The app should open with dummy data populated for the single board
 
 ## Technical Details
 
-- Implemented as a modern NextJS app with Typescript
+- Implemented as a modern NextJS app, client rendered
 - No persistence
 - No user management for the MVP
 - Use popular libraries
+- As simple as possible
 
 ## Color Scheme
 
@@ -28,14 +30,13 @@
 
 ## Strategy
 
-1. Write plan to plan.md with success criteria for each phase to be checked off. Include project scaffolding and rigorous unit testing.
+1. Write plan with success criteria for each phase to be checked off. Include project scaffolding and rigorous unit testing.
 2. Execute the plan ensuring all critiera are met
 3. Carry out extensive integration testing with Playwright or similar, fixing defects
-4. Carry out at least 2 iterations of improving the UI/UX, adding features and retesting
-5. Only complete when the MVP is finished and tested, with the server running and ready for the user
+4. Only complete when the MVP is finished and tested, with the server running and ready for the user
 
 ## Coding standards
 
 1. Use latest versions of libraries and idiomatic approaches as of today
-2. Keep it simple - NEVER over-engineer, ALWAYS simplify, NO unnecessary defensive programming
+2. Keep it simple - NEVER over-engineer, ALWAYS simplify, NO unnecessary defensive programming. No extra features - focus on simplicity.
 3. Be concise. Keep README minimal. IMPORTANT: no emojis ever
