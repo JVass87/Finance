@@ -32,7 +32,7 @@
 2. Execute the plan ensuring all critiera are met
 3. Carry out extensive integration testing with Playwright or similar, fixing defects
 4. Carry out at least 2 iterations of improving the UI/UX, adding features and retesting
-5. Only complete when the MVP is finished and tested
+5. Only complete when the MVP is finished and tested, with the server running and ready for the user
 
 ## Coding standards
 
