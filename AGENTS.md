@@ -15,10 +15,11 @@
 ## Technical Details
 
 - Implemented as a modern NextJS app, client rendered
+- The NextJS app should be created in a subdirectory `frontend`
 - No persistence
 - No user management for the MVP
 - Use popular libraries
-- As simple as possible
+- As simple as possible but with an elegant UI
 
 ## Color Scheme
 
@@ -30,7 +31,7 @@
 
 ## Strategy
 
-1. Write plan with success criteria for each phase to be checked off. Include project scaffolding and rigorous unit testing.
+1. Write plan with success criteria for each phase to be checked off. Include project scaffolding, including .gitignore, and rigorous unit testing.
 2. Execute the plan ensuring all critiera are met
 3. Carry out extensive integration testing with Playwright or similar, fixing defects
 4. Only complete when the MVP is finished and tested, with the server running and ready for the user
