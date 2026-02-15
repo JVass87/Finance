@@ -1,4 +1,4 @@
-# Kanban Project
+# Kanban Project Manager
 
 ## Instructions
 
