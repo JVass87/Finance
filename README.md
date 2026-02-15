@@ -4,7 +4,7 @@
 
 This is a skeleton project to be the basis for your Kanban project for Week 1 of the Complete AI Coder Course. See the course resources for more.
 
-You should clone this repo with:
+You should clone this repo within your projects directory with:
 
 `git clone https://github.com/ed-donner/kanban.git`
 
